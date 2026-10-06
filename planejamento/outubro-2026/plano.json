@@ -165,14 +165,14 @@
         {
           "title": "O repertório é meu. O caminho é seu.",
           "body": "A experiência de competição precisa ser traduzida para o objetivo, o estágio e a rotina da pessoa que treina comigo.",
-          "image": "guarda",
+          "image": "presenca",
           "design": "split",
           "theme": "paper"
         },
         {
           "title": "Não é treinar como um campeão. É ser orientado por um.",
           "body": "Preparação, fundamento e atenção à execução. Com exigência que faça sentido para você.",
-          "image": "civil",
+          "image": "olhar",
           "design": "split",
           "theme": "navy"
         }
@@ -478,7 +478,7 @@
       "cta": "Objetivo no direct; qualificar região e horários na conversa.",
       "signal": "Interessados que citem acompanhamento contínuo, não somente intensidade.",
       "stories": "Se existir retorno real, aproximar os dois episódios com o contexto correto.",
-      "fallback": "A versão explicativa já está diagramada. Sem continuidade real, retirar da legenda o parágrafo operacional e não anunciar evolução.",
+      "fallback": "A versão explicativa já está diagramada. Sem continuidade real, manter a legenda explicativa e não anunciar evolução.",
       "images": [
         "artes/p10/tela-01.jpg",
         "artes/p10/tela-02.jpg",
@@ -501,7 +501,7 @@
         {
           "title": "Quem está com você faz diferença.",
           "body": "Boxe individual com Léo Gomes.",
-          "image": "boxe_olhos",
+          "image": "boxe_luvas",
           "design": "hero",
           "theme": "paper"
         }

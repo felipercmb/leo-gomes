@@ -1,0 +1,833 @@
+{
+  "version": "2.0",
+  "updated": "2026-10-06",
+  "period": "07 a 31 de outubro de 2026",
+  "campaign": "O valor está em quem conduz.",
+  "status": "Proposta para aprovação. Nada foi agendado ou publicado por este material.",
+  "posts": [
+    {
+      "id": "P01",
+      "day": 7,
+      "week": 1,
+      "type": "Carrossel",
+      "format": "4 telas",
+      "title": "Sua aula começa antes do primeiro golpe.",
+      "pillar": "Experiência Individual Premium",
+      "role": "Reconhecimento",
+      "why": "Abrir o mês pelo critério que diferencia o professor: descobrir o que precisa de atenção naquela pessoa. Não vender apenas uma aula particular; tornar compreensível o que o Léo faz com esse tempo individual.",
+      "slides": [
+        {
+          "title": "Sua aula começa antes do primeiro golpe.",
+          "body": "O ponto de partida é você.",
+          "image": "guarda",
+          "design": "hero",
+          "theme": "navy"
+        },
+        {
+          "title": "“Eu escuto mais do que falo.”",
+          "body": "O que você busca? O que já praticou? Como o treino cabe na sua rotina? Essa conversa também orienta a aula.",
+          "image": "civil",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "O movimento traz a próxima pergunta.",
+          "body": "Na execução, observo apoio, distância e resposta à orientação. A prioridade precisa fazer sentido para quem está à minha frente.",
+          "image": "apoio",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "Uma pessoa. Uma prioridade. Um próximo passo.",
+          "body": "A técnica orienta. A leitura do aluno decide como conduzir. Conte seu objetivo, sua região e seus horários possíveis.",
+          "design": "process",
+          "theme": "navy",
+          "nodes": [
+            "Escutar",
+            "Observar",
+            "Interpretar",
+            "Adaptar",
+            "Exigir"
+          ]
+        }
+      ],
+      "caption": "Antes de escolher o primeiro exercício, quero entender quem chegou. O objetivo, a experiência e a rotina entram na conversa. Depois, o movimento mostra o que merece atenção. É dessa leitura que nasce a prioridade da aula: o que orientar agora, como explicar e qual próximo passo faz sentido.\n\n“Eu escuto mais do que falo.” Essa frase faz parte da minha forma de ensinar.\n\nQuer conhecer o acompanhamento? Me envie seu objetivo, sua região e seus horários possíveis. Atendimento em Goiânia e Aparecida, em academias e a domicílio, conforme local e agenda.",
+      "proof": "Frase e mecanismo de condução registrados nas entrevistas do projeto. Fotografias reais de estúdio; não são documentação de uma aula.",
+      "input": "06/10",
+      "approval": "06/10",
+      "need": "Léo valida a descrição da condução e os exemplos técnicos. Felipe entrega as quatro telas e a legenda para aprovação hoje.",
+      "cta": "Objetivo + região + horários possíveis no direct.",
+      "signal": "Mensagens que citem atenção, leitura ou acompanhamento e tragam contexto de atendimento.",
+      "stories": "Compartilhar a capa e perguntar: o que você gostaria que seu professor soubesse antes da primeira aula?",
+      "fallback": "Sem aprovação hoje, não publicar automaticamente: registrar o impedimento e combinar nova data. Não transformar silêncio em aprovação.",
+      "images": [
+        "artes/p01/tela-01.jpg",
+        "artes/p01/tela-02.jpg",
+        "artes/p01/tela-03.jpg",
+        "artes/p01/tela-04.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "P02",
+      "day": 9,
+      "week": 1,
+      "type": "Foto editorial",
+      "format": "1 imagem",
+      "title": "O simples bem feito.",
+      "pillar": "Técnica de Campeão",
+      "role": "Identidade",
+      "why": "Dar força visual a uma frase real. O contraste entre uma execução avançada e o valor do fundamento ajuda a separar o repertório do professor daquilo que ele exige de um iniciante.",
+      "slides": [
+        {
+          "title": "O simples bem feito.",
+          "body": "Antes da complexidade, fundamento.",
+          "image": "extensao",
+          "design": "hero",
+          "theme": "paper"
+        }
+      ],
+      "caption": "“O simples bem feito.”\n\nUma execução avançada chama atenção. Ensinar exige outra escolha: entender o que precisa ser construído antes dela. Não é pedir que todo aluno reproduza o movimento do professor. É dar a orientação que faz sentido para o estágio de cada pessoa.\n\nO fundamento não é uma etapa para apressar. É uma parte do caminho à qual eu continuo voltando.",
+      "proof": "Frase real dos documentos. Foto de prática em estúdio, sem promessa de resultado para alunos.",
+      "input": "06/10",
+      "approval": "07/10",
+      "need": "Léo confirma a interpretação da frase. Arte utiliza recorte real, sem alteração do rosto ou da execução.",
+      "cta": "Pergunta nos Stories: qual fundamento mudou sua forma de treinar?",
+      "signal": "Respostas de alunos que reconheçam a frase e expliquem um exemplo.",
+      "stories": "Léo explica, em áudio ou vídeo curto, um fundamento ao qual costuma voltar.",
+      "fallback": "Publicação independente de collab e de nova captação; depende apenas da validação editorial.",
+      "images": [
+        "artes/p02/tela-01.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "P03",
+      "day": 11,
+      "week": 1,
+      "type": "Reel",
+      "format": "25 a 40 segundos",
+      "title": "O detalhe que eu escolhi corrigir.",
+      "pillar": "Técnica + Experiência Individual",
+      "role": "Demonstração real",
+      "why": "Trocar a afirmação de personalização por uma decisão observável. Iniciar uma pequena história de aula que poderá ser retomada no dia 27, sem encenar dificuldade ou prometer evolução antes de existir material.",
+      "slides": [],
+      "caption": "O detalhe que eu escolhi corrigir nesta aula foi [completar com a decisão real]. Percebi [observação verificável] e orientei [ajuste feito]. A prioridade foi essa porque [explicação do Léo].\n\nA atenção individual aparece nessas escolhas. O próximo passo depende da resposta de quem está treinando.\n\nQuer entender como seria esse acompanhamento para você? Me conte seu objetivo e sua região.",
+      "proof": "Uma sequência real: execução inicial, orientação do Léo e tentativa seguinte. A legenda só é fechada depois de conferir o vídeo.",
+      "input": "08/10",
+      "approval": "09/10",
+      "need": "Aula 1: aluno adulto autorizado; modalidade, situação e prioridade identificadas. Enviar trechos contínuos, sem fabricar um erro para filmar.",
+      "capture": [
+        "Registrar 10-15 segundos da execução antes da orientação, com os dois no enquadramento.",
+        "Captar a orientação real do Léo, com áudio compreensível.",
+        "Registrar a tentativa seguinte. Não exigir um resultado melhor para a câmera.",
+        "Depois da aula, perguntar ao Léo: o que você percebeu e por que escolheu esse ajuste primeiro?",
+        "Guardar um identificador anônimo da situação para retomar a história no dia 27."
+      ],
+      "cta": "Objetivo e região no direct.",
+      "signal": "Contatos que mencionem a decisão mostrada, e não apenas o golpe.",
+      "stories": "Um trecho da orientação e uma pergunta sobre o detalhe observado.",
+      "fallback": "R01 em 09/10: carrossel de boxe já diagramado. Sem aula utilizável, a pauta sai como explicação do professor, nunca como prova de aluno.",
+      "images": [
+        "artes/p03/referencia-de-pauta.jpg"
+      ],
+      "status": "Pauta definida / aguarda gravação"
+    },
+    {
+      "id": "P04",
+      "day": 13,
+      "week": 2,
+      "type": "Carrossel",
+      "format": "4 telas",
+      "title": "O pódio é parte da história. Ensinar é o trabalho de hoje.",
+      "pillar": "Técnica + Mente de Campeão",
+      "role": "Transferência de autoridade",
+      "why": "Explicar o benefício da trajetória sem fazer da carreira uma coleção de troféus. O filme não organiza o mês; a reputação esportiva contextualiza a experiência atual de ensino.",
+      "slides": [
+        {
+          "title": "O pódio é parte da história.",
+          "body": "Ensinar é o trabalho de hoje.",
+          "image": "chute",
+          "design": "hero",
+          "theme": "navy"
+        },
+        {
+          "title": "Rio 2007. Uma história que tem registro.",
+          "body": "Bronze nos Jogos Pan-Americanos. A trajetória sustenta a autoridade, mas não substitui mostrar como ela chega à aula.",
+          "design": "record",
+          "theme": "paper",
+          "nodes": [
+            "Rio",
+            "2007",
+            "Bronze"
+          ]
+        },
+        {
+          "title": "O repertório é meu. O caminho é seu.",
+          "body": "A experiência de competição precisa ser traduzida para o objetivo, o estágio e a rotina da pessoa que treina comigo.",
+          "image": "guarda",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "Não é treinar como um campeão. É ser orientado por um.",
+          "body": "Preparação, fundamento e atenção à execução. Com exigência que faça sentido para você.",
+          "image": "civil",
+          "design": "split",
+          "theme": "navy"
+        }
+      ],
+      "caption": "O bronze nos Jogos Pan-Americanos do Rio, em 2007, faz parte da minha trajetória no taekwondo. Hoje, essa experiência ganha outro sentido: ajudar a orientar quem chega para aprender.\n\nO repertório de competição não significa pedir a um aluno que viva como atleta de elite. Significa traduzir preparação, fundamento e atenção à execução para a realidade da pessoa à minha frente.\n\nO pódio é parte da história. Ensinar é o trabalho de hoje.\n\nRegistro do resultado: União Pan-Americana de Taekwondo (PATU), Rio 2007.",
+      "proof": "Resultado oficial da PATU, associado à trajetória já documentada no projeto. Fotos atuais são ilustrativas; não são fotos do evento de 2007.",
+      "input": "08/10",
+      "approval": "10/10",
+      "need": "Léo valida a associação do nome esportivo ao registro e o texto. Nenhuma fotografia receberá o nome de um campeonato sem confirmação.",
+      "cta": "Acompanhar a próxima aula para ver esse repertório em uma decisão concreta.",
+      "signal": "Respostas que conectem a trajetória à qualidade do ensino atual.",
+      "stories": "Léo conta uma aprendizagem da competição que mudou sua forma de ensinar.",
+      "fallback": "Se o vínculo do resultado não for confirmado, retirar a tela factual e manter apenas a trajetória esportiva declarada pelo Léo.",
+      "images": [
+        "artes/p04/tela-01.jpg",
+        "artes/p04/tela-02.jpg",
+        "artes/p04/tela-03.jpg",
+        "artes/p04/tela-04.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "P05",
+      "day": 15,
+      "week": 2,
+      "type": "Reel",
+      "format": "20 a 35 segundos",
+      "title": "Cansado e consciente.",
+      "pillar": "Mente de Campeão / Exigência com Propósito",
+      "role": "Contexto de uma frase real",
+      "why": "Mostrar o que uma frase do Léo significa dentro da aula. O valor não é apenas a intensidade: é o professor continuar lendo a execução enquanto exige.",
+      "slides": [],
+      "caption": "“Cansado e consciente.”\n\nNesta aula, [descrever o contexto real]. Quando percebi [observação registrada], escolhi [decisão registrada]. A exigência continuou com uma direção, acompanhando a resposta do aluno.\n\nEssa frase não é um convite para ignorar limites. É uma lembrança de que esforço e atenção precisam andar juntos.",
+      "proof": "Aula real, com observação e decisão verificáveis. Não afirmar prevenção de lesão, cura ou benefício psicológico.",
+      "input": "11/10",
+      "approval": "13/10",
+      "need": "Aula 2: captar um momento natural em que Léo oriente durante o esforço. Se essa situação não acontecer, não produzi-la para o vídeo.",
+      "capture": [
+        "Registrar um trecho contínuo do exercício, com som da aula.",
+        "Manter no vídeo a orientação que mostre atenção à resposta do aluno.",
+        "Perguntar ao Léo, depois: o que 'cansado e consciente' significou nesta situação?",
+        "Editar apenas o que a aula comprova. Não usar imagens de sofrimento como prova de qualidade."
+      ],
+      "cta": "Identificação: o que você percebe quando treina com atenção?",
+      "signal": "Respostas que reconheçam a combinação de desafio e cuidado na condução.",
+      "stories": "Perguntar aos alunos qual frase do Léo eles levam para a rotina.",
+      "fallback": "R02 em 12/10: frase real explicada em três telas com fotos próprias. Sem simular fadiga ou resultado.",
+      "images": [
+        "artes/p05/referencia-de-pauta.jpg"
+      ],
+      "status": "Pauta definida / aguarda gravação"
+    },
+    {
+      "id": "P06",
+      "day": 17,
+      "week": 2,
+      "type": "Carrossel",
+      "format": "4 telas",
+      "title": "Jab: o que acontece depois do golpe?",
+      "pillar": "Técnica de Campeão / Educação",
+      "role": "Educação com critério do professor",
+      "why": "Responder ao interesse por conteúdo educativo sem fazer um tutorial intercambiável. A pergunta ensina o público a perceber uma parte da execução e mostra como Léo escolhe o que corrigir.",
+      "slides": [
+        {
+          "title": "Jab: o que acontece depois do golpe?",
+          "body": "Meu olhar não termina na mão que vai.",
+          "image": "boxe_olhos",
+          "design": "hero",
+          "theme": "navy"
+        },
+        {
+          "title": "O retorno também faz parte.",
+          "body": "Depois do jab, a mão volta à guarda. Esse retorno entra na leitura da execução, junto com apoio e distância.",
+          "image": "boxe_camiseta",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "Eu não corrijo tudo ao mesmo tempo.",
+          "body": "Se o retorno for a prioridade daquele aluno, a orientação começa ali. Outro aluno pode precisar de uma decisão diferente.",
+          "design": "focus",
+          "theme": "paper",
+          "nodes": [
+            "Apoio",
+            "Distância",
+            "Retorno"
+          ]
+        },
+        {
+          "title": "Você aprende o golpe. Eu acompanho a execução.",
+          "body": "Conteúdo educativo é um começo. A correção precisa observar você. Quer conversar? Envie objetivo e região.",
+          "design": "process",
+          "theme": "navy",
+          "nodes": [
+            "Perceber",
+            "Priorizar",
+            "Orientar",
+            "Observar de novo"
+          ]
+        }
+      ],
+      "caption": "No jab, a mão que avança chama atenção. Mas eu também observo o que acontece depois: o retorno à guarda, o apoio e a relação com a distância.\n\nNão significa corrigir tudo de uma vez. A prioridade depende de como a pessoa está executando e respondendo à orientação. Se o retorno for o ponto mais importante naquele momento, começamos por ele.\n\nEste conteúdo apresenta um critério de observação. Não é uma avaliação do seu movimento nem substitui uma aula acompanhada.\n\nQuer conhecer o boxe individual comigo? Envie seu objetivo e sua região.",
+      "proof": "Exemplo educativo proposto, apoiado na condução descrita nas entrevistas. Critérios e redação técnica precisam da aprovação do Léo. Não há caso ou antes/depois de aluno.",
+      "input": "13/10",
+      "approval": "15/10",
+      "need": "Léo valida jab, retorno, apoio e distância. Se houver material real de P03 relacionado ao tema, inserir referência na legenda; não presumir a modalidade da aula.",
+      "cta": "Objetivo + região para conhecer o boxe individual.",
+      "signal": "Salvamentos e conversas que citem correção individual; não confundir salvamento com intenção de compra.",
+      "stories": "Léo demonstra, em vídeo curto, o detalhe aprovado no carrossel.",
+      "fallback": "Sem validação técnica, não publicar dica. Usar R03, composto de frases reais e interpretação aprovada.",
+      "images": [
+        "artes/p06/tela-01.jpg",
+        "artes/p06/tela-02.jpg",
+        "artes/p06/tela-03.jpg",
+        "artes/p06/tela-04.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "P07",
+      "day": 20,
+      "week": 3,
+      "type": "Reel",
+      "format": "30 a 45 segundos",
+      "title": "Por que eu continuo treinando com o Léo.",
+      "pillar": "Experiência Individual Premium / Prova",
+      "role": "Relato de aluno adulto",
+      "why": "Fazer um aluno explicar o que justifica continuar escolhendo esse professor. Um episódio concreto é mais útil para o futuro cliente do que elogios amplos ou uma transformação escrita pela agência.",
+      "slides": [],
+      "caption": "[Nome ou identificação autorizada] conta uma situação que resume a experiência de treinar comigo.\n\n[Resumo fiel do episódio, somente depois de receber o relato.]\n\nÉ uma experiência individual, contada por quem a viveu. Se você se identifica com esse tipo de acompanhamento, me conte seu objetivo, sua região e seus horários possíveis.",
+      "proof": "Relato espontâneo de um aluno adulto, com consentimento registrado. Não usar depoimento de jovem para provar preferência do público adulto de alta renda.",
+      "input": "15/10",
+      "approval": "18/10",
+      "need": "Léo convida um aluno adulto. Felipe orienta a gravação, recolhe autorização e fecha a edição com as palavras efetivamente ditas.",
+      "capture": [
+        "Pergunta inicial: o que faz você continuar treinando com o Léo?",
+        "Aprofundar: consegue lembrar de uma situação que mostre isso?",
+        "Perguntar: o que o Léo percebeu ou adaptou naquela aula?",
+        "Só se o aluno mencionar uma mudança: onde você percebe isso na sua rotina?",
+        "Não entregar falas prontas. Usar imagens da própria aula apenas com autorização."
+      ],
+      "cta": "Objetivo + região + horários para avaliar o acompanhamento.",
+      "signal": "Interessados que citem um episódio do relato e expliquem o que procuram.",
+      "stories": "Trecho do relato e convite para outros alunos contarem uma situação específica.",
+      "fallback": "R03 em 16/10: três códigos do Léo. A reserva constrói identidade, mas não substitui a evidência de satisfação de um cliente.",
+      "images": [
+        "artes/p07/referencia-de-pauta.jpg"
+      ],
+      "status": "Pauta definida / aguarda gravação"
+    },
+    {
+      "id": "P08",
+      "day": 22,
+      "week": 3,
+      "type": "Carrossel",
+      "format": "4 telas",
+      "title": "Um chute alto não é o ponto de partida.",
+      "pillar": "Técnica de Campeão / Educação",
+      "role": "Acessibilidade sem banalização",
+      "why": "Diminuir a distância entre o repertório de campeão e o adulto que deseja começar. O público vê uma execução bonita, mas entende que a aula respeita o estágio dele e que fundamento também tem valor.",
+      "slides": [
+        {
+          "title": "Um chute alto não é o ponto de partida.",
+          "body": "A altura não decide o começo da sua aula.",
+          "image": "chute_reel",
+          "design": "hero",
+          "theme": "paper"
+        },
+        {
+          "title": "Primeiro, entender o apoio.",
+          "body": "Observo como você organiza a base e responde à orientação. O fundamento ajuda a escolher o exercício, não só a altura do chute.",
+          "image": "apoio",
+          "design": "split",
+          "theme": "navy"
+        },
+        {
+          "title": "Depois, acompanhar o controle.",
+          "body": "A amplitude e a complexidade precisam fazer sentido para o seu estágio. A prioridade não é copiar uma foto do professor.",
+          "image": "extensao",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "A experiência é de campeão. O ponto de partida é seu.",
+          "body": "Começar ou retomar: o objetivo e a leitura da sua execução orientam o caminho. Vamos conversar sobre o que você busca?",
+          "design": "focus",
+          "theme": "navy",
+          "nodes": [
+            "Apoio",
+            "Controle",
+            "Seu estágio"
+          ]
+        }
+      ],
+      "caption": "Uma foto de chute alto não deve virar a exigência da primeira aula. O ponto de partida depende de quem está treinando.\n\nNo taekwondo, observar apoio e controle ajuda a escolher o que trabalhar. A amplitude e a complexidade entram quando fazem sentido para o estágio da pessoa.\n\nO repertório do professor serve para orientar o caminho, não para criar uma comparação impossível.\n\nEste é um conteúdo explicativo; a orientação técnica precisa considerar a execução individual. Quer começar ou retomar? Me conte seu objetivo e sua região.",
+      "proof": "Fotos reais do Léo em estúdio. Não são passos de uma mesma execução nem demonstração completa de um tipo de chute. Texto técnico sujeito à validação dele.",
+      "input": "17/10",
+      "approval": "20/10",
+      "need": "Léo valida a explicação. Evitar identificar as fotos como sequência biomecânica ou prescrever altura/amplitude à distância.",
+      "cta": "Objetivo + região para começar ou retomar.",
+      "signal": "Dúvidas de iniciantes adultos sobre acompanhamento e adaptação.",
+      "stories": "Perguntar o que a pessoa imagina que precisa saber antes de começar.",
+      "fallback": "Sem validação técnica, trocar por explicação da primeira conversa, usando a reserva R04.",
+      "images": [
+        "artes/p08/tela-01.jpg",
+        "artes/p08/tela-02.jpg",
+        "artes/p08/tela-03.jpg",
+        "artes/p08/tela-04.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "P09",
+      "day": 24,
+      "week": 3,
+      "type": "Reel",
+      "format": "30 a 45 segundos",
+      "title": "O que ficou da aula, fora da aula.",
+      "pillar": "Experiência Individual Premium / Prova",
+      "role": "Relato de aluna adulta",
+      "why": "Dar espaço à percepção emocional com evidência pessoal. A própria aluna define se houve mudança e qual foi ela. O público pode se reconhecer sem promessa universal de transformação.",
+      "slides": [],
+      "caption": "[Identificação autorizada] conta o que percebeu na experiência de treinar comigo.\n\n[Resumo fiel da situação mencionada por ela.]\n\nCada pessoa vive o treino de um jeito. Este relato ajuda a entender o valor que uma aluna encontrou no acompanhamento, sem transformar sua experiência em promessa para todos.\n\nSe isso conversa com o que você procura, me envie seu objetivo e sua região.",
+      "proof": "Relato real de aluna adulta. Não presumir cura, emagrecimento, confiança ou mudança de vida antes da fala existir.",
+      "input": "19/10",
+      "approval": "22/10",
+      "need": "Aluna adulta autorizada; imagens complementares somente da própria pessoa. Capa final será escolhida depois da gravação.",
+      "capture": [
+        "Pergunta: o que você percebe que mudou, se algo mudou, desde que começou a treinar com o Léo?",
+        "Pedir uma situação concreta da aula ou da rotina.",
+        "Perguntar: o que ele fez que teve importância para você?",
+        "Se ela não relatar transformação, contar honestamente a experiência e o motivo da escolha.",
+        "Manter a fala natural, sem oferecer elogios para ela repetir."
+      ],
+      "cta": "Objetivo e região para quem se identificar.",
+      "signal": "Conversas que relacionem a experiência da aluna à necessidade de acompanhamento do interessado.",
+      "stories": "Trecho autorizado e pergunta aberta sobre o que os alunos valorizam nas aulas.",
+      "fallback": "R04 em 20/10: como começa o acompanhamento. A reserva não será apresentada como relato de aluna.",
+      "images": [
+        "artes/p09/referencia-de-pauta.jpg"
+      ],
+      "status": "Pauta definida / aguarda gravação"
+    },
+    {
+      "id": "P10",
+      "day": 27,
+      "week": 4,
+      "type": "Carrossel",
+      "format": "4 telas",
+      "title": "A meta continua. A aula pode mudar.",
+      "pillar": "Exigência com Propósito",
+      "role": "Continuidade da história",
+      "why": "Retomar, se possível, a situação de P03 para mostrar que personalização não acontece só no primeiro encontro. Quando faltar prova, explicar o critério de adaptação sem fingir acompanhamento longitudinal.",
+      "slides": [
+        {
+          "title": "A meta continua. A aula pode mudar.",
+          "body": "Exigir também é saber adaptar.",
+          "image": "boxe_camiseta",
+          "design": "hero",
+          "theme": "navy"
+        },
+        {
+          "title": "O objetivo dá direção.",
+          "body": "A leitura da execução e a resposta do aluno ajudam a decidir se o exercício, o ritmo ou a explicação precisam mudar.",
+          "design": "process",
+          "theme": "paper",
+          "nodes": [
+            "Objetivo",
+            "Resposta",
+            "Decisão"
+          ]
+        },
+        {
+          "title": "Mudar a forma não é perder o propósito.",
+          "body": "Uma prioridade clara pode pedir outra explicação. A exigência precisa continuar fazendo sentido para a pessoa.",
+          "image": "guarda",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "O próximo passo precisa ser observado.",
+          "body": "Não é repetir uma aula pronta. É acompanhar quem está treinando e decidir com atenção.",
+          "design": "focus",
+          "theme": "navy",
+          "nodes": [
+            "Observar",
+            "Adaptar",
+            "Acompanhar"
+          ]
+        }
+      ],
+      "caption": "O objetivo dá direção. A resposta do aluno ajuda a decidir como continuar. Posso mudar o exercício, o ritmo ou a explicação sem perder o propósito do treino.\n\nMudar a forma não significa abandonar a direção. A exigência precisa continuar fazendo sentido para quem está treinando.\n\nExigir também é saber adaptar. Quer conhecer esse acompanhamento? Me conte o que você busca.",
+      "proof": "Versão diagramada é explicativa. Versão documental só existe com retorno real à situação de P03, autorização e observação verificável.",
+      "input": "19/10",
+      "approval": "24/10",
+      "need": "Aula 4: tentar retomar a prioridade da Aula 1. Felipe substitui textos condicionais por narrativa factual apenas se houver material. Não publicar a nota operacional como legenda.",
+      "capture": [
+        "Retomar a mesma prioridade, se fizer sentido na aula; não forçar progressão para o cronograma.",
+        "Registrar o que Léo percebe agora e a decisão que toma.",
+        "Perguntar ao aluno como entendeu a orientação, sem pedir elogio.",
+        "Se não houver continuidade, manter a arte explicativa aprovada."
+      ],
+      "cta": "Objetivo no direct; qualificar região e horários na conversa.",
+      "signal": "Interessados que citem acompanhamento contínuo, não somente intensidade.",
+      "stories": "Se existir retorno real, aproximar os dois episódios com o contexto correto.",
+      "fallback": "A versão explicativa já está diagramada. Sem continuidade real, retirar da legenda o parágrafo operacional e não anunciar evolução.",
+      "images": [
+        "artes/p10/tela-01.jpg",
+        "artes/p10/tela-02.jpg",
+        "artes/p10/tela-03.jpg",
+        "artes/p10/tela-04.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "P11",
+      "day": 29,
+      "week": 4,
+      "type": "Foto editorial",
+      "format": "1 imagem",
+      "title": "Quem está com você faz diferença.",
+      "pillar": "Experiência Individual Premium",
+      "role": "Desejo e escolha",
+      "why": "Criar uma pausa visual no feed e reforçar a escolha do profissional. O boxe aparece como modalidade; a legenda aproxima o valor da orientação das necessidades de quem considera contratar.",
+      "slides": [
+        {
+          "title": "Quem está com você faz diferença.",
+          "body": "Boxe individual com Léo Gomes.",
+          "image": "boxe_olhos",
+          "design": "hero",
+          "theme": "paper"
+        }
+      ],
+      "caption": "Escolher a modalidade é uma parte da decisão. Escolher quem vai acompanhar você é outra.\n\nNo meu trabalho, escutar, observar e ajustar fazem parte da aula. Quero entender o que você busca e como conduzir esse caminho dentro da sua realidade.\n\nSe você procura boxe individual em Goiânia ou Aparecida, me envie seu objetivo, sua região e seus horários possíveis. Vamos avaliar o formato e a viabilidade na agenda.",
+      "proof": "Texto editorial proposto, não uma frase histórica do Léo. Retrato real, sem imagem de aluno ou promessa de disponibilidade.",
+      "input": "24/10",
+      "approval": "27/10",
+      "need": "Léo confirma a disponibilidade e as condições do atendimento antes de abrir a conversa comercial.",
+      "cta": "Objetivo + região + horários possíveis.",
+      "signal": "Conversas completas sobre viabilidade do serviço.",
+      "stories": "Responder uma dúvida real sobre academias, atendimento a domicílio ou horários.",
+      "fallback": "Se não houver encaixe atual, convidar a consultar disponibilidade futura. Não anunciar vagas limitadas ou lista de espera não existentes.",
+      "images": [
+        "artes/p11/tela-01.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "P12",
+      "day": 31,
+      "week": 4,
+      "type": "Carrossel",
+      "format": "4 telas",
+      "title": "Seu objetivo. Sua rotina. Nossa primeira conversa.",
+      "pillar": "Experiência Individual / Conversão",
+      "role": "Procura qualificada",
+      "why": "Transformar interesse em uma conversa útil para os dois lados. Explicar como iniciar, onde pode acontecer e quais informações ajudam a avaliar encaixe, sem vender agenda ou condição ainda não confirmada.",
+      "slides": [
+        {
+          "title": "Seu objetivo. Sua rotina. Nossa primeira conversa.",
+          "body": "Como começar a treinar comigo.",
+          "image": "civil",
+          "design": "hero",
+          "theme": "navy"
+        },
+        {
+          "title": "O que você quer construir?",
+          "body": "Aprender, retomar ou aprofundar a prática. Me conte o que procura e a experiência que já tem.",
+          "design": "focus",
+          "theme": "paper",
+          "nodes": [
+            "Começar",
+            "Retomar",
+            "Aprofundar"
+          ]
+        },
+        {
+          "title": "Onde o treino cabe na sua vida?",
+          "body": "Goiânia e Aparecida. Academias ou atendimento a domicílio, conforme acesso ao local, região e agenda.",
+          "image": "boxe_camiseta",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "Me envie três informações.",
+          "body": "Seu objetivo. Sua região. Seus horários possíveis. A partir disso, conversamos sobre formato e condições.",
+          "design": "process",
+          "theme": "navy",
+          "nodes": [
+            "Objetivo",
+            "Região",
+            "Horários"
+          ]
+        }
+      ],
+      "caption": "Quer entender como seria treinar comigo? Comece me contando três informações: seu objetivo, sua região e seus horários possíveis.\n\nAtendo em Goiânia e Aparecida, em academias e a domicílio, conforme acesso ao local, região e viabilidade da agenda. A partir da conversa, explico o formato e as condições do acompanhamento.\n\nO primeiro passo não é escolher um pacote sem contexto. É entender se o atendimento combina com o que você procura.",
+      "proof": "Regiões e formatos informados por Felipe. Agenda, acesso e condições vigentes devem ser confirmados pelo Léo.",
+      "input": "26/10",
+      "approval": "29/10",
+      "need": "Confirmar modalidades, disponibilidade, deslocamento e condições reais. Não inserir preço, aula gratuita ou exclusividade artificial.",
+      "cta": "Objetivo + região + horários possíveis no direct.",
+      "signal": "Conversas qualificadas, propostas apresentadas e decisões reais; registrar razões de não avanço.",
+      "stories": "Repostar a tela final e responder dúvidas que de fato chegaram durante o mês.",
+      "fallback": "Sem disponibilidade atual, trocar o convite por consulta de encaixe futuro. Sem definição de condição, explicar que ela será confirmada na conversa.",
+      "images": [
+        "artes/p12/tela-01.jpg",
+        "artes/p12/tela-02.jpg",
+        "artes/p12/tela-03.jpg",
+        "artes/p12/tela-04.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    }
+  ],
+  "reserves": [
+    {
+      "id": "R01",
+      "for": "P03",
+      "cut": "09/10",
+      "title": "A mão chega ao alvo. Meu olhar vai além dela.",
+      "slides": [
+        {
+          "title": "A mão chega ao alvo. Meu olhar vai além dela.",
+          "body": "O que eu observo no boxe.",
+          "image": "boxe_camiseta",
+          "design": "hero",
+          "theme": "navy"
+        },
+        {
+          "title": "Apoio, distância, retorno.",
+          "body": "São pistas da execução. A prioridade depende de como a pessoa responde, não de uma lista de correções iguais para todos.",
+          "design": "focus",
+          "theme": "paper",
+          "nodes": [
+            "Apoio",
+            "Distância",
+            "Retorno"
+          ]
+        },
+        {
+          "title": "Uma prioridade por vez.",
+          "body": "Escolho o que orientar primeiro e observo a tentativa seguinte. O detalhe precisa ser visto na pessoa que está treinando.",
+          "image": "boxe_olhos",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "A orientação precisa olhar para você.",
+          "body": "Quer conhecer o acompanhamento? Conte seu objetivo, sua região e seus horários possíveis.",
+          "design": "process",
+          "theme": "navy",
+          "nodes": [
+            "Objetivo",
+            "Região",
+            "Horários"
+          ]
+        }
+      ],
+      "caption": "No boxe, observar a execução envolve mais do que ver a mão chegar ao alvo. Apoio, distância e retorno ajudam a escolher uma prioridade. Este post explica um critério do meu olhar; não é um caso de aluno nem uma avaliação do seu movimento. Quer esse acompanhamento? Conte seu objetivo, sua região e seus horários possíveis.",
+      "limit": "Léo precisa validar os critérios técnicos. Reserva explicativa, sem prova de evolução.",
+      "images": [
+        "artes/r01/tela-01.jpg",
+        "artes/r01/tela-02.jpg",
+        "artes/r01/tela-03.jpg",
+        "artes/r01/tela-04.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "R02",
+      "for": "P05",
+      "cut": "12/10",
+      "title": "Cansado e consciente.",
+      "slides": [
+        {
+          "title": "Cansado e consciente.",
+          "body": "A frase tem um contexto.",
+          "image": "chute_reel",
+          "design": "hero",
+          "theme": "navy"
+        },
+        {
+          "title": "O esforço muda. A atenção continua.",
+          "body": "Eu acompanho a execução e a resposta da pessoa. Ritmo, exercício ou explicação podem precisar de ajuste.",
+          "image": "guarda",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "Exigência com direção.",
+          "body": "Não é ignorar limites. É conduzir o desafio com leitura e propósito.",
+          "design": "process",
+          "theme": "navy",
+          "nodes": [
+            "Esforço",
+            "Atenção",
+            "Decisão"
+          ]
+        }
+      ],
+      "caption": "“Cansado e consciente.” A frase não é um convite para ignorar limites. É uma lembrança de que esforço e atenção caminham juntos. Na minha condução, observar a execução e a resposta da pessoa ajuda a decidir quando ajustar ritmo, exercício ou explicação.",
+      "limit": "Frase real em conteúdo explicativo. Sem simular esforço de aluno.",
+      "images": [
+        "artes/r02/tela-01.jpg",
+        "artes/r02/tela-02.jpg",
+        "artes/r02/tela-03.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "R03",
+      "for": "P07",
+      "cut": "16/10",
+      "title": "Três códigos. Uma forma de conduzir.",
+      "slides": [
+        {
+          "title": "Três códigos. Uma forma de conduzir.",
+          "body": "As frases que entram na minha aula.",
+          "image": "civil",
+          "design": "hero",
+          "theme": "paper"
+        },
+        {
+          "title": "“Eu escuto mais do que falo.”",
+          "body": "A condução começa entendendo quem chegou.",
+          "image": "guarda",
+          "design": "split",
+          "theme": "navy"
+        },
+        {
+          "title": "“O simples bem feito.”",
+          "body": "O fundamento merece uma prioridade clara.",
+          "image": "apoio",
+          "design": "split",
+          "theme": "paper"
+        },
+        {
+          "title": "“Cansado e consciente.”",
+          "body": "O desafio precisa continuar acompanhado de atenção.",
+          "design": "process",
+          "theme": "navy",
+          "nodes": [
+            "Escuta",
+            "Fundamento",
+            "Consciência"
+          ]
+        }
+      ],
+      "caption": "“Eu escuto mais do que falo.” “O simples bem feito.” “Cansado e consciente.” Três frases que ajudam a entender minha forma de conduzir: conhecer a pessoa, dar atenção ao fundamento e acompanhar a resposta durante o esforço. Para conhecer a aula, conte seu objetivo e sua região.",
+      "limit": "Identidade verbal documentada. Não substitui relato real nem valida satisfação de adultos.",
+      "images": [
+        "artes/r03/tela-01.jpg",
+        "artes/r03/tela-02.jpg",
+        "artes/r03/tela-03.jpg",
+        "artes/r03/tela-04.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    },
+    {
+      "id": "R04",
+      "for": "P09",
+      "cut": "20/10",
+      "title": "Seu primeiro treino começa no seu momento.",
+      "slides": [
+        {
+          "title": "Seu primeiro treino começa no seu momento.",
+          "body": "Não na experiência de outra pessoa.",
+          "image": "guarda",
+          "design": "hero",
+          "theme": "paper"
+        },
+        {
+          "title": "O que você traz para a aula?",
+          "body": "Seu objetivo, sua experiência e a rotina entram na conversa. Eu preciso conhecer esse ponto de partida.",
+          "image": "civil",
+          "design": "split",
+          "theme": "navy"
+        },
+        {
+          "title": "Vamos entender o encaixe.",
+          "body": "Conte seu objetivo, sua região e seus horários possíveis. Conversamos sobre o acompanhamento e suas condições.",
+          "design": "process",
+          "theme": "paper",
+          "nodes": [
+            "Objetivo",
+            "Região",
+            "Horários"
+          ]
+        }
+      ],
+      "caption": "Seu primeiro treino começa no seu momento. Quero entender o que você procura, o que já praticou e como a aula cabe na sua rotina. Me envie objetivo, região e horários possíveis para conversarmos sobre o acompanhamento.",
+      "limit": "Convite baseado em informação real do atendimento. Não é depoimento nem promessa de transformação.",
+      "images": [
+        "artes/r04/tela-01.jpg",
+        "artes/r04/tela-02.jpg",
+        "artes/r04/tela-03.jpg"
+      ],
+      "status": "Arte diagramada / aguarda aprovação"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Kleison Silva / KS Team",
+      "url": "https://kleisonsilva.com.br/",
+      "scope": "Oferta local de boxe e Muay Thai em Goiânia.",
+      "observation": "A oferta já usa personalização, atenção exclusiva, privacidade e flexibilidade.",
+      "decision": "Substituir adjetivos isolados por uma situação e a decisão real do professor.",
+      "limit": "Comunicação comercial observada. Não revela preços, composição da clientela ou conversão."
+    },
+    {
+      "name": "BGJ Brothers Gym",
+      "url": "https://www.bgjjiujitsu.com.br/",
+      "scope": "Referência adjacente de jiu-jitsu em Goiânia.",
+      "observation": "Apresenta diferentes pontos de partida, carreira dos professores e relatos.",
+      "decision": "Explicar para quem o acompanhamento faz sentido e documentar a experiência de adultos.",
+      "limit": "Não é concorrente direto de boxe. Não se inferem faturamento ou público AA."
+    },
+    {
+      "name": "Luke Worthington",
+      "url": "https://www.lukeworthington.com/private-training-best-personal-trainer-london/",
+      "scope": "Referência internacional de atendimento individual.",
+      "observation": "O atendimento é apresentado em relação a necessidades específicas, agenda, privacidade e viabilidade.",
+      "decision": "Dar ao interessado um caminho claro: objetivo, região e horários antes de discutir formato.",
+      "limit": "Outro mercado. Não serve para estimar preços ou comportamento de compradores de Goiânia."
+    },
+    {
+      "name": "Ngo Okafor / Iconoclast",
+      "url": "https://www.iconoclastfitness.com/personal-training",
+      "scope": "Referência internacional de personal training.",
+      "observation": "Relaciona descoberta do objetivo, rotina e nível à proposta de acompanhamento.",
+      "decision": "Ligar a trajetória do Léo à decisão de ensino e ao valor percebido pelo aluno.",
+      "limit": "Não copiar programas, promessas de transformação ou um método de outra marca."
+    },
+    {
+      "name": "Chico Salgado",
+      "url": "https://chicosalgado.com/",
+      "scope": "Contraponto de produto digital e presença pública.",
+      "observation": "Comunicação voltada também a um produto de treino digital e relatos de figuras públicas.",
+      "decision": "Manter o foco deste ciclo no serviço individual; fama, por si só, não resolve a escolha do professor.",
+      "limit": "Oferta de escala diferente. Não usar como estimativa de procura pelo serviço presencial."
+    },
+    {
+      "name": "Meta: conteúdo original",
+      "url": "https://about.fb.com/br/news/2024/04/ajudando-o-criador-de-conteudo-a-encontrar-novos-publicos/",
+      "scope": "Orientação pública de plataforma, publicada em 2024.",
+      "observation": "A comunicação oficial valoriza autoria e elegibilidade de recomendação.",
+      "decision": "Produzir imagens e situações próprias, sem reproduzir artes de concorrentes.",
+      "limit": "Não garante alcance, viralização ou vendas. Não é uma auditoria do algoritmo atual."
+    },
+    {
+      "name": "PATU: Rio 2007",
+      "url": "https://www.patutkd.org/expediente-continental-taekwondo-en-los-juegos-panamericanos-rio-2007/",
+      "scope": "Registro esportivo oficial.",
+      "observation": "Lista Leonardo dos Santos, Brasil, como bronze no peso pesado masculino.",
+      "decision": "Usar a trajetória com registro e confirmar a associação com Léo antes da publicação.",
+      "limit": "Não atribuir esse evento a fotografias atuais ou não identificadas."
+    }
+  ]
+}

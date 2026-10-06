@@ -1,0 +1,46 @@
+/* Details share the site's palette and respond to the visitor's actions. */
+:root{--ease-out:cubic-bezier(.22,1,.36,1)}
+html{scroll-padding-top:100px}
+.chapter-nav{position:fixed;z-index:40;top:18px;right:var(--page);display:flex;align-items:center;gap:5px;padding:6px;background:#f7f6f2f5;color:var(--navy);border-radius:100px;box-shadow:0 8px 36px #0c1b2a22;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);max-width:calc(100vw - 32px)}
+.chapter-home{display:flex;align-items:center;gap:10px;padding:2px 16px 2px 9px;font-size:12px;font-weight:650;min-height:42px}
+.chapter-home .brand-mark{width:23px;height:33px}
+.chapter-nav button,.chapter-cta{padding:12px 19px;border-radius:100px;font-size:12px;font-weight:650;line-height:1.5;min-height:44px}
+.chapter-nav button{background:transparent}.chapter-nav button:hover{background:var(--soft)}
+.chapter-cta{background:var(--red);color:white}.chapter-cta:hover{background:#94302a}
+.modal-open .chapter-nav{visibility:hidden}
+.desktop-nav a{position:relative}.desktop-nav a:hover{color:var(--red)}
+.desktop-nav a::before{content:'';position:absolute;left:50%;bottom:1px;width:4px;height:4px;border-radius:50%;background:var(--red);transform:translateY(4px);opacity:0;transition:opacity .2s,transform .3s var(--ease-out)}
+.desktop-nav a:hover::before,.desktop-nav a[aria-current]::before{opacity:1;transform:translateY(0)}
+.menu-button{display:flex;align-items:center;gap:13px;min-height:44px;transition:background .25s,transform .3s var(--ease-out)}
+.menu-button i{display:flex;flex-direction:column;gap:4px;width:16px}.menu-button b{display:block;width:16px;height:1.5px;background:currentColor;transition:transform .3s var(--ease-out)}
+.menu-button:hover b:first-child{transform:translateX(3px)}.menu-button:hover b:last-child{transform:translateX(-3px)}
+.menu-dialog{isolation:isolate;display:none;flex-direction:column;padding-top:28px;padding-bottom:30px;overflow-x:hidden}
+.menu-dialog[open]{display:flex}.menu-dialog::before{content:'';position:absolute;z-index:-1;right:5vw;top:21%;width:35vw;height:65%;background:#203647;mask:url('assets/logo-chute-silhueta.png') center/contain no-repeat;mask-mode:alpha;pointer-events:none}
+.menu-top{flex-shrink:0}.menu-top>span{font-size:19px}.close-dialog{border-radius:100px;min-height:44px;transition:background .2s}
+.menu-dialog .close-dialog:hover,.gallery-dialog .close-dialog:hover{background:#ffffff12}
+.close-dialog i{transition:transform .25s var(--ease-out)}.close-dialog:hover i{transform:rotate(90deg)}
+.menu-dialog nav{padding:clamp(26px,5vh,60px) 0;gap:5px;flex:1;align-content:center;max-width:1000px}
+.menu-dialog nav>a{font-family:Anton,sans-serif;font-size:clamp(44px,6.8vh,78px);font-weight:400;line-height:1.23;letter-spacing:-.025em;padding:5px 0;transition:color .25s,transform .45s var(--ease-out);width:100%}
+.menu-dialog nav>a>span{font-family:Manrope,sans-serif;font-size:12px;max-width:210px;text-align:right;transition:color .25s}
+.menu-dialog nav>a:hover,.menu-dialog nav>a:focus-visible{color:#ed715f;transform:translateX(12px)}
+.menu-dialog nav>a:hover>span{color:var(--paper)}
+.menu-bottom{display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:12px;color:#b9c5cf}.menu-bottom a{color:var(--paper);padding:12px 20px;background:#233b4d;border-radius:100px;transition:background .2s}.menu-bottom a:hover{background:var(--red)}
+.archive-filters button,.moment-options button{transition:background .25s,color .25s,transform .3s var(--ease-out)}
+.archive-filters button:not([aria-pressed=true]):hover{background:#e6e9e7;color:var(--navy)}
+.photo-item{position:relative}.photo-item>span{display:flex;align-items:center;justify-content:space-between;gap:25px}
+.photo-item>span::after{content:'+';display:grid;place-items:center;width:25px;height:25px;border-radius:50%;background:var(--navy);color:var(--paper);font-size:18px;font-weight:400;line-height:1;opacity:0;transform:scale(.7) rotate(-90deg);transition:opacity .2s,transform .4s var(--ease-out)}
+.photo-item:hover>span::after,.photo-item:focus-visible>span::after{opacity:1;transform:scale(1) rotate(0)}
+.archive-controls button,.photo-controls button{transition:background .2s,transform .3s var(--ease-out)}
+.archive-controls button:active,.photo-controls button:active{transform:scale(.91)}
+.gallery-dialog{background:#081622}.gallery-dialog::before{content:'O arquivo do Léo';position:absolute;top:27px;left:5vw;font-size:12px;color:#b9c5cf}
+.gallery-dialog figure{overflow:hidden}.gallery-dialog figure img{touch-action:pan-y pinch-zoom}
+.photo-controls{gap:9px}.photo-controls button{width:46px;height:46px}.photo-controls button:hover{background:#3a5366}.photo-controls span{min-width:76px;text-align:center;font-variant-numeric:tabular-nums}
+.questions summary>span{transition:transform .3s var(--ease-out),color .2s}.questions details[open] summary{color:var(--red)}
+.training-start .moment-options button:not([aria-pressed=true]):hover{background:#ffffff16}
+.career-event .career-year{transition:color .65s var(--ease-out),transform .65s var(--ease-out)}
+.career-event.is-reading .career-year{color:#ed715f;transform:translateX(5px)}
+@media(hover:hover) and (pointer:fine){.photo-item:hover img{transform:translateY(-8px);filter:brightness(1.025)}.cover-foot a:hover span{transform:translateY(5px)}.cover-foot a span{transition:transform .35s var(--ease-out)}}
+@media(max-width:680px){html{scroll-padding-top:24px}.chapter-nav{top:auto;bottom:max(14px,env(safe-area-inset-bottom));right:16px;left:16px;justify-content:space-between;gap:0;padding:5px}.chapter-home{font-size:11px;padding-right:6px;gap:8px}.chapter-home .brand-mark{width:20px;height:30px}.chapter-nav button,.chapter-cta{font-size:11px;padding:12px 16px}.menu-button{gap:10px}.menu-dialog{padding-top:20px}.menu-dialog nav{gap:17px;padding:30px 0}.menu-dialog nav>a{font-size:39px;line-height:1.15;padding:0}.menu-dialog nav>a>span{font-size:10px;text-align:left;max-width:none}.menu-dialog::before{width:64vw;height:50%;top:30%;right:-5vw;opacity:.65}.menu-bottom{font-size:10px;align-items:flex-end}.menu-bottom p{max-width:145px;line-height:1.6}.menu-bottom a{font-size:11px;padding:11px 16px}.gallery-dialog::before{left:20px;font-size:11px}.photo-item>span::after{opacity:1;transform:none;width:22px;height:22px;font-size:16px}.contact{padding-bottom:110px}footer{padding-bottom:105px}}
+@media(max-height:650px){.menu-dialog nav{gap:8px;padding:20px 0}.menu-dialog nav>a{font-size:34px}.menu-dialog nav>a>span{font-size:10px}}
+@media(max-width:680px){.archive-controls{max-width:100px}.archive-controls button{width:44px;height:44px}}
+@media(prefers-reduced-motion:reduce){.career-event.is-reading .career-year,.menu-dialog nav>a:hover,.menu-dialog nav>a:focus-visible,.photo-item:hover img,.photo-item:focus-visible img,.cover-cta:hover,.sport-cta:hover,.contact-main:hover,.solid-button:hover,.hero-controls button:hover,.archive-controls button:active,.photo-controls button:active,.cover-foot a:hover span,.menu-button:hover b,.close-dialog:hover i{transform:none!important}.chapter-nav{backdrop-filter:none;-webkit-backdrop-filter:none}}

@@ -44,3 +44,27 @@ html{scroll-padding-top:100px}
 @media(max-height:650px){.menu-dialog nav{gap:8px;padding:20px 0}.menu-dialog nav>a{font-size:34px}.menu-dialog nav>a>span{font-size:10px}}
 @media(max-width:680px){.archive-controls{max-width:100px}.archive-controls button{width:44px;height:44px}}
 @media(prefers-reduced-motion:reduce){.career-event.is-reading .career-year,.menu-dialog nav>a:hover,.menu-dialog nav>a:focus-visible,.photo-item:hover img,.photo-item:focus-visible img,.cover-cta:hover,.sport-cta:hover,.contact-main:hover,.solid-button:hover,.hero-controls button:hover,.archive-controls button:active,.photo-controls button:active,.cover-foot a:hover span,.menu-button:hover b,.close-dialog:hover i{transform:none!important}.chapter-nav{backdrop-filter:none;-webkit-backdrop-filter:none}}
+
+/* Photograph captions remain readable at every viewport width. */
+.portrait-caption,
+.about-moment figcaption,
+.career-album figcaption,
+.career-present figcaption,
+.photo-item > span,
+.archive-side small,
+.gallery-count,
+.gallery-dialog figcaption,
+.training-photo figcaption,
+.contact-portrait figcaption {
+  font-size:12px;
+  line-height:1.5;
+}
+
+/* The image yields space when a longer caption wraps in the lightbox. */
+.gallery-dialog figure img {
+  flex:1 1 0;
+  min-height:0;
+  height:auto;
+}
+.gallery-dialog figcaption { flex-shrink:0; }
+.archive-filters button { min-height:44px; }

@@ -1,0 +1,90 @@
+/* A masthead for Léo, then an open photographic composition. */
+.cover { padding: 8px var(--page) 28px; }
+.cover-layout { grid-template-columns: minmax(0, .72fr) minmax(0, 1.28fr); gap: 32px 5%; align-items: stretch; }
+.cover-masthead { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 25px; }
+.cover-signature { font-size: 20px; font-weight: 600; line-height: 1.4; letter-spacing: -.6px; padding-top: 20px; }
+.cover-signature span { display: block; max-width: 115px; font-size: 11px; line-height: 1.6; font-weight: 450; letter-spacing: 0; margin-top: 14px; color: var(--muted); }
+.cover-name { display: flex; align-items: baseline; justify-content: flex-start; gap: .2em; font-size: clamp(110px, 18.2vw, 292px); letter-spacing: -.04em; line-height: 1; padding: .04em 0 0; }
+.name-window { padding: .07em 0; margin: -.07em 0; }
+.cover-story { display: flex; flex-direction: column; padding: 26px 0 4px; min-width: 0; }
+.cover-eyebrow { font-size: 14px; font-weight: 550; margin-bottom: 20px; color: var(--red); }
+.cover-copy { display: flex; align-items: flex-start; flex-direction: column; gap: 0; padding: 0; margin: 0; }
+.cover-copy > #hero-statement { font-size: clamp(27px, 2.8vw, 43px); letter-spacing: -.055em; font-weight: 600; line-height: 1.18; min-height: 2.36em; }
+.cover-copy > .cover-disciplines { font-size: 14px; font-weight: 450; letter-spacing: 0; line-height: 1.65; color: var(--muted); min-height: 0; margin-top: 20px; }
+.cover-cta { margin-top: 24px; padding: 15px 18px 15px 24px; gap: 26px; }
+.cover-cta > span { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: #ffffff1c; font-size: 20px; font-weight: 400; transition: transform .35s cubic-bezier(.22,1,.36,1); }
+.cover-cta:hover > span { transform: rotate(45deg); }
+.cover-visual { display: block; align-self: stretch; }
+.cover-portrait { height: clamp(465px, 62svh, 700px); }
+.hero-scene { grid-template-columns: minmax(0, 1fr) 106px; grid-template-rows: minmax(0, 1fr); gap: 20px; align-items: stretch; }
+.hero-photo, .hero-scene:not([data-hero-scene="0"]) .hero-photo { border-radius: 0; margin: 0; background: transparent; overflow: clip; }
+.hero-photo img, .hero-scene:not([data-hero-scene="0"]) img { object-fit: contain; object-position: center; }
+.hero-scene[data-hero-scene="0"] .hero-photo { background: var(--paper); }
+.hero-scene[data-hero-scene="0"] img { object-position: center bottom; mask-image: linear-gradient(90deg,transparent 0%,black 4%,black 96%,transparent 100%); }
+.hero-scene[data-hero-scene="2"] .hero-photo img { object-fit: cover; object-position: center 70%; }
+.hero-scene figcaption { text-align: left; align-self: end; padding-bottom: 8px; font-size: 12px; line-height: 1.6; }
+.hero-scene figcaption > span { display: block; color: var(--navy); font-weight: 650; margin-bottom: 12px; }
+.hero-controls { display: grid; grid-template-columns: minmax(0, 1fr) 44px; align-items: end; gap: 2px 10px; justify-content: stretch; margin-top: auto; padding-top: 30px; width: 100%; max-width: 325px; }
+.hero-controls button[data-hero-select] { grid-column: 1; border-radius: 0; padding: 5px 0 5px 18px; min-height: 48px; display: flex; flex-direction: column; align-items: flex-start; gap: 1px; text-align: left; white-space: normal; color: var(--muted); background: transparent; }
+.hero-controls button[data-hero-select] > span { font-size: 20px; line-height: 1.3; letter-spacing: -.7px; font-weight: 550; transition: transform .3s, color .3s; }
+.hero-controls button[data-hero-select] > small { display: none; font-size: 11px; line-height: 1.5; color: var(--muted); }
+.hero-controls button[data-hero-select]::before { content: ''; position: absolute; left: 0; top: 17px; width: 6px; height: 6px; border-radius: 50%; background: var(--red); opacity: 0; transform: scale(.3); transition: opacity .3s, transform .3s; }
+.hero-controls button[data-hero-select][aria-pressed="true"] { color: var(--red); background: transparent; }
+.hero-controls button[data-hero-select][aria-pressed="true"]::before { opacity: 1; transform: scale(1); }
+.hero-controls button[data-hero-select][aria-pressed="true"] > small { display: block; }
+.hero-controls button[data-hero-select]:hover > span { transform: translateX(4px); color: var(--navy); }
+.hero-controls .hero-pause { grid-column: 2; grid-row: 3; width: 44px; height: 44px; padding: 0; border-radius: 50%; background: var(--navy); color: var(--paper); }
+.hero-controls .hero-pause:hover { background: var(--red); color: white; }
+.cover-foot { margin-top: 30px; }
+.cover-foot a span { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: #e9eae5; font-size: 19px; transition: transform .3s; }
+.cover-foot a:hover span { transform: translateY(4px); }
+.about { padding-top: clamp(90px, 9vw, 135px); }
+@media (min-width: 1600px) {
+  .cover-name { font-size: 286px; }
+}
+@media (max-width: 1000px) {
+  .cover-layout { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 25px 3%; }
+  .cover-story { padding-top: 12px; }
+  .cover-signature { font-size: 17px; }
+  .cover-copy > #hero-statement { font-size: 29px; }
+  .cover-portrait { height: 510px; }
+  .hero-scene { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) auto; gap: 12px; }
+  .hero-scene figcaption { display: flex; gap: 5px; padding: 0; font-size: 12px; }
+  .hero-scene figcaption > span { margin: 0; }
+}
+@media (max-width: 680px) {
+  .cover { padding-top: 12px; padding-bottom: 25px; }
+  .cover-layout { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .cover-masthead { grid-column: 1; grid-row: 1; display: block; }
+  .cover-signature { display: none; }
+  .cover-name { font-size: 23.6vw; gap: .12em; margin: 0 0 22px; justify-content: space-between; }
+  .cover-story { display: contents; }
+  .cover-eyebrow { grid-row: 2; margin: 0 0 15px; font-size: 12px; }
+  .cover-copy { display: contents; }
+  .cover-copy > #hero-statement { grid-row: 3; font-size: clamp(24px,6.5vw,38px); line-height: 1.15; min-height: 2.3em; margin-bottom: 20px; }
+  .cover-copy > #hero-statement br { display: initial; }
+  .cover-copy > .cover-disciplines { grid-row: 7; margin: 0; padding-top: 14px; font-size: 12px; }
+  .cover-copy > .cover-disciplines br { display: initial; }
+  .cover-visual { grid-row: 4; margin: 0; display: block; }
+  .cover-portrait { height: clamp(350px, 108vw, 510px); }
+  .hero-scene { grid-template-columns: minmax(0,1fr); grid-template-rows: minmax(0, 1fr) auto; gap: 10px; }
+  .hero-scene .hero-photo { width: 100%; max-width: 430px; margin: auto; height: 100%; }
+  .hero-scene:not([data-hero-scene="0"]) .hero-photo { width: auto; max-width: 100%; margin: 0 auto; aspect-ratio: 2 / 3; }
+  .hero-scene figcaption { display: flex; flex-wrap: wrap; gap: 0 5px; font-size: 12px; padding: 0; }
+  .hero-scene figcaption > span { margin: 0; }
+  .hero-controls, .hero-controls:has(.hero-pause[hidden]) { grid-row: 5; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)) 44px; max-width: none; width: 100%; margin: 18px 0 22px; padding: 0; gap: 3px; align-items: start; order: initial; }
+  .hero-controls:has(.hero-pause[hidden]) { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .hero-controls button[data-hero-select] { grid-column: auto; padding: 10px 1px; min-height: 44px; align-items: center; }
+  .hero-controls button[data-hero-select] > span { font-size: 12px; letter-spacing: -.25px; white-space: nowrap; line-height: 24px; }
+  .hero-controls button[data-hero-select] > small, .hero-controls button[data-hero-select][aria-pressed="true"] > small { display: none; }
+  .hero-controls button[data-hero-select]::before { display: none; }
+  .hero-controls .hero-pause { grid-row: 1; grid-column: 4; width: 44px; height: 44px; min-width: 44px; }
+  .cover-cta { grid-row: 6; margin: 0; justify-self: start; padding: 13px 16px 13px 23px; }
+  .cover-foot { margin-top: 25px; gap: 22px; align-items: flex-start; }
+  .cover-foot > p { font-size: 10px; line-height: 1.5; max-width: 100px; text-align: right; display: block; }
+  .cover-foot a { gap: 9px; font-size: 11px; }
+  .about { padding-top: 85px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cover-cta > span, .hero-controls button[data-hero-select] > span, .hero-controls button[data-hero-select]::before, .cover-foot a span { transition: none; transform: none !important; }
+}

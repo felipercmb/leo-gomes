@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ajuste",
+    "title": "Um ajuste muda tudo.",
+    "format": "Carrossel · 4 telas",
+    "why": "A capa mostra a relação entre professor e praticante. A sequência transforma o tema do chute em critério de condução: apoio, controle e a orientação adequada ao aluno. Não é tutorial de chute alto nem prova de transformação.",
+    "caption": "Antes de perguntar até onde a perna sobe, vale observar o que sustenta o movimento.\n\nNo treino individual, apoio, amplitude e controle não precisam seguir a mesma prioridade para todo mundo. A orientação deve considerar o nível e a resposta de quem está praticando. É nesse olhar que um ajuste ganha sentido.\n\nPara conhecer as aulas de taekwondo com o Léo, envie uma mensagem com seu objetivo e a região onde deseja treinar.\n\nA imagem da capa é uma cena encenada durante uma gravação, usada para ilustrar a orientação técnica. Não é registro de aula real nem relato de aluno.",
+    "approval": "Confirmar autorização de uso da imagem de Arthur e validar a explicação técnica. Imagem de bastidor encenado; sem promessa ou prova de resultado.",
+    "slides": [
+      {
+        "file": "ajuste/tela-01.jpg",
+        "alt": "Um ajuste muda tudo. - tela 1"
+      },
+      {
+        "file": "ajuste/tela-02.jpg",
+        "alt": "Um ajuste muda tudo. - tela 2"
+      },
+      {
+        "file": "ajuste/tela-03.jpg",
+        "alt": "Um ajuste muda tudo. - tela 3"
+      },
+      {
+        "file": "ajuste/tela-04.jpg",
+        "alt": "Um ajuste muda tudo. - tela 4"
+      }
+    ]
+  },
+  {
+    "id": "jab",
+    "title": "O jab não termina no impacto.",
+    "format": "Carrossel · 4 telas",
+    "why": "Ensina um fundamento observável e relevante para quem começa no boxe. A última tela explica a diferença entre receber uma dica e ter um professor que escolhe o que corrigir primeiro. Educação a serviço da experiência individual.",
+    "caption": "A mão vai, mas a atenção não termina quando o jab chega ao alvo.\n\nA mão que não golpeia ajuda a manter a proteção; a que executa o jab precisa retornar à guarda. Antes de acelerar, vale compreender e repetir essa sequência com orientação.\n\nUma dica explica o princípio. Na aula individual, meu trabalho é observar como você executa e decidir qual ajuste precisa de atenção primeiro. A técnica faz parte. A condução precisa considerar você.\n\nQuer conhecer as aulas de boxe? Conte seu objetivo e seu nível por mensagem. Atendimento em Goiânia e Aparecida, em academias ou a domicílio, conforme disponibilidade.",
+    "approval": "Conteúdo técnico e a descrição da condução devem ser validados pelo Léo. Sem diagnóstico, promessa de segurança absoluta ou resultado garantido.",
+    "slides": [
+      {
+        "file": "jab/tela-01.jpg",
+        "alt": "O jab não termina no impacto. - tela 1"
+      },
+      {
+        "file": "jab/tela-02.jpg",
+        "alt": "O jab não termina no impacto. - tela 2"
+      },
+      {
+        "file": "jab/tela-03.jpg",
+        "alt": "O jab não termina no impacto. - tela 3"
+      },
+      {
+        "file": "jab/tela-04.jpg",
+        "alt": "O jab não termina no impacto. - tela 4"
+      }
+    ]
+  },
+  {
+    "id": "simples",
+    "title": "O simples bem feito.",
+    "format": "Foto editorial",
+    "why": "Traz uma frase real do Léo e uma imagem de ação forte. A legenda impede que o gesto avançado vire promessa ou barreira para o iniciante: o centro é o fundamento bem orientado, não a altura do chute.",
+    "caption": "“O simples bem feito.” — Léo Gomes.\n\nUm gesto avançado chama atenção. O cuidado com o fundamento é o que deve orientar o treinamento. A imagem mostra o repertório do professor; não define o ponto de partida nem a meta de todo aluno.\n\nPara quem começa, retoma ou quer aperfeiçoar a técnica, a aula precisa considerar o objetivo, o nível e o momento de cada pessoa.\n\nTreino individual de boxe e taekwondo em Goiânia e Aparecida. Fale com o Léo para conversar sobre seu objetivo.",
+    "approval": "Frase já presente nos documentos fornecidos. Confirmar redação da legenda e disponibilidade de atendimento antes de publicar.",
+    "slides": [
+      {
+        "file": "simples/tela-01.jpg",
+        "alt": "O simples bem feito. - tela 1"
+      }
+    ]
+  }
+]

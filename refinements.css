@@ -68,3 +68,39 @@ html{scroll-padding-top:100px}
 }
 .gallery-dialog figcaption { flex-shrink:0; }
 .archive-filters button { min-height:44px; }
+
+/* Soft photographic edges and distinct, full-width reading chapters. */
+:root { --photo-radius: 22px; --chapter-radius: 44px; }
+.portrait-main,
+.about-moment img,
+.sport-photo-window,
+.sport-photo img,
+.boxing-detail img,
+.career-album img,
+.career-present img,
+.photo-item img,
+.training-photo img,
+.contact-portrait img,
+.gallery-dialog figure img {
+  border-radius: var(--photo-radius);
+}
+.photo-item img { height: auto; max-height: 430px; }
+.photo-b img, .photo-e img, .photo-f img { height: auto; max-height: 330px; }
+.gallery-dialog figure { display: grid; grid-template-rows: minmax(0, 1fr) auto; justify-items: center; align-items: center; gap: 18px; }
+.gallery-dialog figure img { width: auto; height: auto; max-height: 100%; max-width: 100%; }
+.about { background: #eeede7; margin-top: 40px; }
+.career { background: #142b3b; padding-top: 88px; border-radius: var(--chapter-radius) var(--chapter-radius) 0 0; position: relative; }
+/* The navy shoulder makes the curved chapter edge legible. */
+.disciplines { padding-bottom: calc(84px + var(--chapter-radius)); margin-bottom: calc(-1 * var(--chapter-radius)); }
+.archive { background: var(--paper); }
+.training { background: #e9eeec; }
+.contact { border-radius: var(--chapter-radius) var(--chapter-radius) 0 0; position: relative; }
+.training { padding-bottom: calc(var(--space) + var(--chapter-radius)); margin-bottom: calc(-1 * var(--chapter-radius)); }
+@media (max-width: 680px) {
+  :root { --photo-radius: 16px; --chapter-radius: 28px; }
+  .about { margin-top: 24px; }
+  .disciplines { padding-bottom: calc(64px + var(--chapter-radius)); }
+  .career { padding-top: 64px; }
+  .photo-item img { max-height: 300px; }
+  .photo-b img, .photo-e img, .photo-f img { max-height: 225px; }
+}

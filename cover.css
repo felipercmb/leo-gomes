@@ -19,7 +19,9 @@
 .hero-photo img, .hero-scene:not([data-hero-scene="0"]) img { width: auto; height: 100%; max-width: 100%; object-fit: contain; object-position: center; border-radius: var(--photo-radius); }
 .hero-scene[data-hero-scene="0"] .hero-photo { width: calc(100% + 32px); background: transparent; border-radius: 0; }
 .hero-scene[data-hero-scene="0"] img { width: 100%; object-fit: cover; object-position: center top; mix-blend-mode: normal; border-radius: 0; mask-image: linear-gradient(to bottom, #000 92%, transparent 100%); }
-.hero-scene[data-hero-scene="2"] .hero-photo img { width: 100%; object-fit: cover; object-position: center 65%; }
+.hero-scene:not([data-hero-scene="0"]) .hero-photo { border-radius: 0; }
+.hero-scene:not([data-hero-scene="0"]) .hero-photo img { width: 100%; height: 100%; object-fit: contain; object-position: center; border-radius: 0; mix-blend-mode: normal; mask-image: none; }
+.contact-portrait img { aspect-ratio: 4 / 5; object-fit: cover; object-position: center bottom; }
 .hero-scene figcaption { width: 100%; padding: 0; font-size: 12px; line-height: 1.55; color: var(--muted); text-align: center; }
 .hero-scene figcaption > span { display: block; color: var(--navy); font-weight: 650; margin: 0; }
 .cover-invitation { grid-column: 3; grid-row: 2; justify-self: end; padding-left: 8px; }

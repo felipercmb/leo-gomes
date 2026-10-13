@@ -11,14 +11,14 @@
 .cover-copy { display: block; margin: 0; padding: 0; }
 .cover-copy > #hero-statement { font-size: clamp(25px,2.45vw,36px); line-height: 1.24; letter-spacing: -.035em; font-weight: 600; min-height: 3.75em; max-width: 13ch; text-wrap: balance; }
 .cover-copy > .cover-disciplines { margin-top: 24px; font-size: 14px; font-weight: 450; line-height: 1.75; letter-spacing: 0; color: var(--muted); min-height: 0; }
-.cover-visual { --portrait-height: clamp(410px,calc(100svh - 385px),600px); grid-column: 2; grid-row: 2; display: block; align-self: stretch; transform: none; }
+.cover-visual { --portrait-height: clamp(560px,48vw,720px); grid-column: 2; grid-row: 2; display: block; align-self: stretch; transform: none; }
 .cover-portrait { height: var(--portrait-height); max-width: none; }
 .hero-scene { grid-template-columns: minmax(0,1fr); grid-template-rows: minmax(0,1fr) auto; gap: 12px; justify-items: center; }
 .hero-scene.is-current { z-index: 1; }
 .hero-photo, .hero-scene:not([data-hero-scene="0"]) .hero-photo { border-radius: var(--photo-radius); margin: 0; background: transparent; overflow: clip; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
 .hero-photo img, .hero-scene:not([data-hero-scene="0"]) img { width: auto; height: 100%; max-width: 100%; object-fit: contain; object-position: center; border-radius: var(--photo-radius); }
-.hero-scene[data-hero-scene="0"] .hero-photo { background: transparent; border-radius: var(--photo-radius); }
-.hero-scene[data-hero-scene="0"] img { width: 100%; object-fit: cover; object-position: center top; mix-blend-mode: multiply; mask-image: none; }
+.hero-scene[data-hero-scene="0"] .hero-photo { width: calc(100% + 32px); background: transparent; border-radius: 0; }
+.hero-scene[data-hero-scene="0"] img { width: 100%; object-fit: cover; object-position: center top; mix-blend-mode: normal; border-radius: 0; mask-image: linear-gradient(to bottom, #000 92%, transparent 100%); }
 .hero-scene[data-hero-scene="2"] .hero-photo img { width: 100%; object-fit: cover; object-position: center 65%; }
 .hero-scene figcaption { width: 100%; padding: 0; font-size: 12px; line-height: 1.55; color: var(--muted); text-align: center; }
 .hero-scene figcaption > span { display: block; color: var(--navy); font-weight: 650; margin: 0; }
@@ -42,6 +42,7 @@
 .about { margin-top: 0; padding-top: clamp(80px,7vw,96px); }
 @media (max-width:1050px) {
  .cover-layout { gap: 20px; }
+ .hero-scene[data-hero-scene="0"] .hero-photo { width: 100%; }
  .cover-copy > #hero-statement { font-size: 25px; }
  .cover-signature { font-size: 28px; }
  .cover-cta { gap: 10px; padding: 14px; font-size: 12px; }
@@ -60,7 +61,7 @@
  .cover-portrait { width: 100%; max-width: 420px; height: var(--portrait-height); margin: auto; }
  .hero-scene { gap: 12px; }
  .hero-scene .hero-photo, .hero-scene:not([data-hero-scene="0"]) .hero-photo { width: 100%; height: 100%; margin: 0; aspect-ratio: auto; }
- .hero-scene[data-hero-scene="0"] img { width: auto; object-fit: contain; }
+ .hero-scene[data-hero-scene="0"] img { width: 100%; object-fit: cover; }
  .hero-scene figcaption { font-size: 12px; }
  .cover-signature { display: none; }
  .cover-cta { grid-column: 1; grid-row: 4; justify-self: center; margin: 20px 0 0; padding: 15px 21px; gap: 20px; font-size: 14px; }

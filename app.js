@@ -582,7 +582,7 @@ conversation.addEventListener('submit', event => {
   const cityText = city === 'Outra cidade' ? 'Moro em outra cidade.' : `Minha cidade é ${city}.`;
   const message = interest === 'Palestras ou projetos'
     ? `Olá, Léo! Quero conversar sobre palestras ou projetos. ${cityText} ${goal || 'Podemos conversar sobre as possibilidades?'}`
-    : `Olá, Léo! Tenho interesse em ${interest === 'Conhecer as modalidades' ? 'conhecer as modalidades' : interest.toLowerCase()}. ${cityText} ${experience}. ${goal ? `Meu objetivo e disponibilidade: ${goal} ` : ''}Gostaria de conhecer o formato, os horários e as condições do atendimento.`;
+    : `Olá, Léo! Tenho interesse em ${interest === 'Conhecer as modalidades' ? 'conhecer as modalidades' : interest.toLowerCase()}. ${cityText} ${experience}. ${goal ? `Meu objetivo e minha disponibilidade: ${goal} ` : ''}Gostaria de conhecer o formato, os horários e as condições do atendimento.`;
   document.querySelector('#ready-message').value = message;
   document.querySelector('#message-result').hidden = false;
   document.querySelector('#copy-status').textContent = '';
@@ -607,7 +607,7 @@ const momentDescriptions = [
   'Voltar também é começar de um novo lugar. Conte o que você já praticou, há quanto tempo parou e como está sua rotina. Esses detalhes ajudam a conversar sobre o retorno.',
   'Você já tem uma base e quer ir além. Leve suas dúvidas, os fundamentos que deseja trabalhar e a experiência que traz. O próximo passo começa por um objetivo claro.'
 ];
-const momentExperiences = ['Quero começar', 'Quero retomar a prática', 'Já pratico e quero aprofundar'];
+const momentExperiences = ['Quero começar', 'Quero retomar a prática', 'Quero aperfeiçoar minha técnica'];
 let selectedMoment = 0;
 document.querySelectorAll('[data-moment]').forEach(button => button.addEventListener('click', () => {
   if (button.getAttribute('aria-pressed') === 'true') return;

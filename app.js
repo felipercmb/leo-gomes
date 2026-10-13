@@ -37,6 +37,7 @@ const heroStatements = [
 ];
 let heroIndex = 0;
 let heroRequest = 0;
+let heroTransition = 0;
 let heroTimer;
 const heroFailures = new Set();
 let heroInView = true;
@@ -63,6 +64,16 @@ function scheduleHero() {
   if (!canCycleHero() || nextHeroIndex() === heroIndex) return;
   heroTimer = setTimeout(() => setHeroScene(nextHeroIndex(), false, true), 8500);
 }
+function finishHeroTransition(generation = heroTransition) {
+  if (generation !== heroTransition) return;
+  // Loading can be interrupted by focus or hover without invalidating this cleanup.
+  heroTransition++;
+  heroScenes.forEach((scene, index) => {
+    scene.hidden = index !== heroIndex;
+    scene.classList.toggle('is-current', index === heroIndex);
+    scene.getAnimations({ subtree: true }).forEach(animation => animation.cancel());
+  });
+}
 async function setHeroScene(index, manual = false, automatic = false) {
   if (manual) { heroPaused = true; updateHeroPause(); }
   clearTimeout(heroTimer);
@@ -80,24 +91,27 @@ async function setHeroScene(index, manual = false, automatic = false) {
   heroFailures.delete(index);
   document.querySelector('#hero-status').textContent = '';
   if (index === heroIndex) { scheduleHero(); return; }
+  const outgoing = heroScenes[heroIndex];
+  finishHeroTransition();
+  heroIndex = index;
+  const generation = ++heroTransition;
   heroScenes.forEach(item => {
-    item.getAnimations({ subtree: true }).forEach(animation => animation.cancel());
     const selected = item === scene;
-    item.hidden = !selected;
+    item.hidden = !selected && item !== outgoing;
     item.classList.toggle('is-current', selected);
   });
-  heroIndex = index;
   cover.dataset.scene = String(index);
   heroChoices.forEach(button => button.setAttribute('aria-pressed', String(Number(button.dataset.heroSelect) === index)));
   const statement = document.querySelector('#hero-statement');
   statement.replaceChildren(document.createTextNode(heroStatements[index][0]), document.createElement('br'), document.createTextNode(heroStatements[index][1]));
-  animateElement(scene.querySelector('.hero-photo'), [
-    {clipPath:'inset(0 0 100% 0 round 5px)',transform:'translateY(28px)'},
-    {clipPath:'inset(0 0 0% 0 round 5px)',transform:'translateY(0)'}
-  ], {duration:1050});
-  animateElement(photo, [{transform:'scale(1.07)'},{transform:'scale(1)'}], {duration:2400});
+  const transitions = [
+    animateElement(outgoing, [{ opacity: 1 }, { opacity: 0 }], { duration: 650, easing: 'ease-in-out', fill: 'both' }),
+    animateElement(scene, [{ opacity: 0 }, { opacity: 1 }], { duration: 650, easing: 'ease-in-out', fill: 'both' })
+  ].filter(Boolean);
+  if (transitions.length) {
+    Promise.allSettled(transitions.map(animation => animation.finished)).then(() => finishHeroTransition(generation));
+  } else finishHeroTransition(generation);
   enterElement(statement, 80, 12);
-  enterElement(scene.querySelector('figcaption'), 250, 7);
   scheduleHero();
 }
 heroChoices.forEach(button => button.addEventListener('click', () => setHeroScene(Number(button.dataset.heroSelect), true)));
@@ -107,7 +121,7 @@ heroPause.addEventListener('click', () => {
   if (heroPaused) {
     heroRequest++;
     clearTimeout(heroTimer);
-    heroScenes.forEach(scene => scene.getAnimations({subtree:true}).forEach(animation => animation.cancel()));
+    finishHeroTransition();
   } else {
     // An explicit play action can advance even while its button owns focus.
     setHeroScene((heroIndex + 1) % heroScenes.length);
@@ -119,7 +133,7 @@ cover.addEventListener('focusin', () => { heroRequest++; clearTimeout(heroTimer)
 cover.addEventListener('focusout', () => setTimeout(scheduleHero, 0));
 document.addEventListener('visibilitychange', () => { if (document.hidden) heroRequest++; scheduleHero(); });
 motionPreference.addEventListener('change', () => {
-  if (motionPreference.matches) { heroRequest++; heroPaused = true; }
+  if (motionPreference.matches) { heroRequest++; heroPaused = true; finishHeroTransition(); }
   updateHeroPause();
   scheduleHero();
   queueDepth();
